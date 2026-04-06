@@ -28,4 +28,4 @@ nginx 1.21.1
 jQuery 3.7.1
 
 ## ER図
-![ER図](./drawio.png)
+![ER図](.drawio.png)
