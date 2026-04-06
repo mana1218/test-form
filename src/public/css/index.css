@@ -1,0 +1,163 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 700px;
+}
+
+.contact-form__header {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-form__inner {
+    width: 100%;
+}
+
+.form__group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.form__group-title {
+    width: 250px;
+    padding-top: 3px;
+    font-size: 13px;
+}
+
+.form__label--required {
+    color: #ff9192;
+    margin-left: 2px;
+}
+
+.form__group-content {
+    flex: 1;
+}
+
+.form__input--text input, .form__select {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 8px 10px;
+    font-size: 10px;
+}
+
+.form__input--text {
+    display: flex;
+    gap: 20px;
+}
+
+.form__input--text input[name^="tel"] {
+    width: 100px;
+    text-align: center;
+}
+
+.form__input--text input {
+    flex: 1;
+}
+
+.form__input--text input:only-child {
+    width: 100%;
+}
+
+.form__input--label {
+    display: flex;
+    gap: 20px;
+}
+
+.form__input--label label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type="radio"] {
+    accent-color: #8b7969;
+    margin-left: 20px;
+}
+
+.form__select {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form__input--select {
+    width: 60%;
+    appearance: none;
+    position: relative;
+}
+
+.form__select:invalid{
+    color: #beb1a5;
+    padding-left: 29px;
+}
+
+.form__select:valid {
+    color: #beb1a5;
+    padding-left: 29px;
+}
+
+.form__input--select::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top:  12px solid #beb1a5;
+}
+
+.form__error {
+    display: flex;
+    color: #ff9192;
+    font-size: 12px;
+    gap: 40px;
+}
+
+.form__input--textarea {
+    width: 100%;
+}
+
+.form__input--textarea textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0 10px;
+    font-size: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+}
+
+.form__button {
+    text-align: center;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.form__button-submit {
+    background-color: #82746b;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+    padding: 20px;
+    color: #beb1a5;
+}

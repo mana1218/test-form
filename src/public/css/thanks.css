@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    font-family: serif;
+    color: #8b7969;
+}
+
+.thanks__content {
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__bg-text {
+    position: absolute;
+    font-size: 210px;
+    color: rgba(139, 121, 105, 0.05);
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.thanks__heading {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form__button {
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.form__button-submit {
+    background-color: #8b7969;
+    color: #fff;
+    border: none;
+    padding: 8px 28px;
+    cursor: pointer;
+}
