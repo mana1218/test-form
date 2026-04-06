@@ -6,7 +6,10 @@
 
 @section('header-btn')
 <div class="header__btn">
-    <a href="/logout" class="logout-btn">logout</a>
+    <form action="/logout" method="post">@csrf
+        <input type="submit" class="logout-btn" value="logout">
+    </form>
+    <!-- <a href="/logout" class="logout-btn">logout</a> -->
 </div>
 @endsection
 
